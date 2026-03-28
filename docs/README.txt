@@ -1,13 +1,9 @@
-Students ID:
+Students IDs:
 214641326
 326320421
 
 How to run:
-Compile:
-javac Main.java
-
-Run:
-java Main
+java -jar adss_v0.jar
 
 Output:
 Hello world
