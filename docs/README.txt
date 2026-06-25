@@ -191,45 +191,6 @@ Main Functionality:
    All important data is saved locally in the SQLite database.
    Orders, suppliers, contracts, products, and stock data remain available after restarting the program.
 
-How to Run:
-
-1. Open a terminal from the main project folder.
-2. Run the following command:
-
-java -jar release/adss2025_v02.jar
-
-3. The system will display:
-
-1 stock , 2 supplier, 0 exit
-
-4. Choose the required module and follow the menu options.
-
-Manual Test Scenarios:
-
-Test 1 – Show periodic supplier order:
-Run the program and choose:
-
-2
-5
-6
-3
-
-Expected result:
-Order num<200>
-Supplier Name: OsemSupplier
-Tuna(ID:3), Quantity:35, TotalCost:$498.75
-
-Test 2 – Stock alert and duplicate order prevention:
-Run the program and choose:
-
-1
-11
-
-Expected result:
-Supplier data loaded from DB.
-Stock data loaded from DB.
-Product ID: 1 is almost out of stock current amount: 10
-Order already exists for product ID: 1 in order ID: 3
 
 Tests:
 The project includes unit and integration tests under the tests folder.
@@ -243,12 +204,3 @@ Technologies and Libraries Used:
 * sqlite-jdbc
 * IntelliJ IDEA
 * Command Line Interface
-
-Notes:
-
-* The SQLite JDBC driver is included inside the JAR file.
-* No external library installation is required to run the JAR.
-* The JAR should be run from the main project folder so it can access dev/superli.db.
-* Do not press Initialize Data repeatedly, because it may insert duplicate sample data.
-* The database file dev/superli.db must be submitted with the project.
-
