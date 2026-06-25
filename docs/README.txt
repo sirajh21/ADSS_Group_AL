@@ -1,12 +1,14 @@
 Assignment 2 – Suppliers & Inventory Integration
 
-Group Members Name+ID:
-212704548 Hamza Dabouri 
-214641326 Siraj Hoshan
-215691205 Loai Shaaban
-326320421 Roaa Aldada
-213503212 Lilyan Hannot
+Group Members Name:ID:
+212704548: Hamza Dabouri 
+214641326: Siraj Hoshan
+215691205: Loai Shaaban
+326320421: Roaa Aldada
+213503212: Lilyan Hannot
+
 Description:
+
 This project integrates the Suppliers Management module with the Inventory Management module.
 The system supports supplier management, contract management, inventory management, low stock alerts,
 automatic supplier orders due to shortages, periodic supplier orders, and SQLite database persistence.
